@@ -1,40 +1,80 @@
 {
-"bg": "https://bneinoach.org.br/wp-content/uploads/2020/02/Torah-696x392.jpg",
-  "title": "Jewish Quiz",
+"bg": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2017/04/I-3-English.-760x400.jpg",
+  "title": "English Quiz",
   "description": "This is a quiz from general knowledge about Jewish thing.",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "What is Kipah?",
-      "description": "Its not a little hat",
+      "image": "https://media.giphy.com/media/4nRiHFFTzmJZC/giphy.gif",
+      "title": "Traduza: Porta",
+      "description": "Não vale olhar no google",
       "answer": 2,
       "alternatives": [
-        "Sacred ornament",
-        "The symbol of fear of God",
-        "Little hat",
-        "A sacred tool"
+        "Poor",
+        "Porta",
+        "Door",
+        "Suor"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/l0G18HxSBtMVdU7io/giphy.gif",
+      "title": "Traduza: Lapiz",
+      "description": "Não vale olhar no google",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Pencil",
+        "Pen",
+        "Pentil",
+        "Lapiz"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/8dYmJ6Buo3lYY/giphy.gif",
+      "title": "Traduza: Água",
+      "description": "Não vale olhar no google",
+      "answer": 2,
+      "alternatives": [
+        "Warer",
+        "Waren",
+        "Water",
+        "What"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/jSuu6dQWhSEQE/giphy.gif",
+      "title": "Traduza: Boneco",
+      "description": "Não vale olhar no google",
+      "answer": 2,
+      "alternatives": [
+        "Dou",
+        "Dolar",
+        "Doll",
+        "Doz"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/IPbS5R4fSUl5S/giphy.gif",
+      "title": "Traduza: Ventriloco",
+      "description": "Esse vc pode olhar no google",
+      "answer": 1,
+      "alternatives": [
+        "Vetryluco",
+        "Ventriloco",
+        "Ventryloco",
+        "Puck"
       ]
     }
   ],
   "external": [
-    ""
+    "https://imersao-alura-viking-quiz.gsmenezes.vercel.app/",
+    "https://avengersquiz.penadev.vercel.app/",
+    "https://quiz-justiceleague.levi-magny.vercel.app/"
   ],
   "theme": {
     "colors": {
-      "primary": "#7d5fb2",
-      "secondary": "#d1c4e9",
-      "mainBg": "#dacfed",
-      "contrastText": "#FFFFFF",
+      "primary": "#00695c",
+      "secondary": "#009688",
+      "mainBg": "#b2dfdb",
+      "contrastText": "#000000",
       "wrong": "#FF5722",
       "success": "#b388ff"
     },

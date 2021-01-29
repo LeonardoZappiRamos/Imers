@@ -5,7 +5,8 @@ module.exports = {
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb"
+        "airbnb",
+        "eslint:recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -18,5 +19,7 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"]
     }
 };

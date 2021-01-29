@@ -7,7 +7,7 @@ function Logo({ className }) {
   return (
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="350" height="67" viewBox="0 0 388 263" preserveAspectRatio="xMidYMid meet">
 
-      <g transform="translate(1,263) scale(0.1,-0.1)"fill="#ffffff" stroke="none">
+      <g transform="translate(1,263) scale(0.1,-0.1)"fill="#000000" stroke="none">
 
         <path d="M1775 2451 c-172 -28 -297 -93 -426 -221 -157 -156 -222 -311 -222
         -530 0 -219 65 -374 222 -530 160 -159 315 -224 536 -224 221 0 376 65 536

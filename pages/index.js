@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
+import QuizBackGround from '../src/components/QuizBackGround';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
@@ -37,7 +37,7 @@ export default function Home() {
   const [name, setName] = React.useState('');
 
   return (
-    <QuizBackground backgroundImage={db.bg}>
+    <QuizBackGround backgroundImage={db.bg}>
       <Head>
         <title>AluraQuiz - {db.title}</title>
         <meta property="og:image" content={db.bg} />
@@ -129,6 +129,6 @@ export default function Home() {
         />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/omariosouto" />
-    </QuizBackground>
+    </QuizBackGround>
   );
 }
